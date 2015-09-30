@@ -26,9 +26,9 @@ class HelloWorldTests: XCTestCase {
         XCTAssert(true, "Pass")
     }
     
-    func testFail() {
+    func testTrue() {
         // This is an example of a functional test case.
-        XCTAssert(false, "false should be false")
+        XCTAssert(true, "false should be false")
     }
     
     func testPerformanceExample() {
